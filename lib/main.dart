@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:new_app/config/themes/app_theme.dart';
+import 'package:new_app/features/news_feature/data/models/news_models_data/news_model_data.dart';
+import 'package:new_app/features/news_feature/domain/entities/news_models/news_model.dart';
 import 'package:new_app/features/news_feature/presentation/screens/news_layout/new_layout.dart';
 import 'package:new_app/core/sahred/cubit_observe.dart';
 import 'package:new_app/core/sahred/local_data_helper/cache_helper.dart';
